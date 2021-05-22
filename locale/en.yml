@@ -3,6 +3,8 @@ imgur-upload:
     settings:
       hide-markdown-image: Hide Markdown image button
       allow-paste: Allow upload by pasting an image
+      API-URL: Imgur upload API URL
+      image-URL: Imgur image URL
       embed-type:
         title: Embed type
         preview-with-link: Preview (1024px) with link to full-size image
