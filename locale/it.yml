@@ -1,0 +1,9 @@
+imgur-upload:
+  admin:
+    settings:
+      hide-markdown-image: Nascondi pulsante immagine Markdown
+  forum:
+    upload: Premi o incolla per caricare
+    loading: Caricamento...
+    done: Fatto!
+    error: Errore

@@ -1,0 +1,41 @@
+{
+    "name": "skyshi/flarum-imgur-upload",
+    "description": "Simple image upload from the Flarum editor",
+    "type": "flarum-extension",
+    "license": "GPL-3.0",
+    "authors": [
+      {
+        "name": "Matteo Contrini",
+        "email": "matteo@contrini.it"
+      },
+      {
+        "name": "SS_PRO (in some code)",
+        "email": "sky@skyshi.tk"
+      }
+    ],
+    "require": {
+        "flarum/core": ">=0.1.0-beta.16 <0.1.0-beta.17"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Imgur Upload",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-circle",
+                "backgroundColor": "#272727",
+                "color": "#85BF25"
+            },
+            "optional-dependencies": ["flarum/markdown"]
+        }
+    },
+    "support": {
+        "issues": "https://github.com/matteocontrini/flarum-imgur-upload/issues",
+        "source": "https://github.com/matteocontrini/flarum-imgur-upload",
+        "forum": "https://discuss.flarum.org/d/18491"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImgurUpload\\": "src/"
+        }
+    }
+}
